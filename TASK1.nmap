@@ -1,0 +1,32 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-13 19:08 +0530
+Nmap scan report for 192.168.1.1
+Host is up (0.0037s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE    SERVICE
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 94:E3:EE:04:BF:EA (zte)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.014s latency).
+All 1000 scanned ports on 192.168.1.2 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E2:8B:93:93:E7:31 (Unknown)
+
+Nmap scan report for 192.168.1.4 (192.168.1.4)
+Host is up (0.0053s latency).
+All 1000 scanned ports on 192.168.1.4 (192.168.1.4) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 6E:E0:BB:29:FE:78 (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.000027s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 33.46 seconds
